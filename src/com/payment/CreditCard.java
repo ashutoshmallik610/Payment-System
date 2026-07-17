@@ -11,6 +11,7 @@ public class CreditCard extends Payment
 	}
 	public void makePayment()
 	{
+		
 		System.out.print("Enter the sending amount : ");
 		int tnxAmount=sc.nextInt();
 		if(tnxAmount<getAmount())
