@@ -7,7 +7,7 @@ public class Payment
 	
 	public Payment(int amount, String transactionId) 
 	{
-		this.amount = amount;
+		setAmount(amount);
 		this.transactionId = transactionId;
 	}
 
@@ -35,5 +35,4 @@ public class Payment
 	{
 		System.out.println("Payment.makePayment()");
 	}
-	
 }

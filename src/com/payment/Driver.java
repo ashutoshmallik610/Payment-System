@@ -23,11 +23,13 @@ public class Driver {
             	UPI upi = new UPI(amount,"345SDFGFDDF");
             	paymentprocessor.processPayment(upi);
                 break;
-
             case 2:
             	CreditCard creditcard = new CreditCard(amount,"978DF4545F");
             	paymentprocessor.processPayment(creditcard);
                 break;
+            case 3:
+            	Netbanking netbanking = new Netbanking(amount, "7654345678");
+            	paymentprocessor.processPayment(netbanking);
             default:
                 System.out.println("Invalid Choice");
         }
