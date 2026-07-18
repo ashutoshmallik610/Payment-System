@@ -16,9 +16,9 @@ public class CreditCard extends Payment
 		int tnxAmount=sc.nextInt();
 		if(tnxAmount<getAmount())
 		{
-			System.out.println("CreditCard.makePayment(Payment done using CreditCard)");
-			setAmount(getAmount()-tnxAmount);
-			System.out.println("Updated balance : "+getAmount());
+			System.out.println("Payment done using Credit card");
+			setAmount(getAmount()-tnxAmount);//This is the extra functionalites that I had added
+			System.out.println("Updated balance : "+getAmount());//This is the extra functionalites that I had added
 		}
 		else
 		{

@@ -30,6 +30,7 @@ public class Driver {
             case 3:
             	Netbanking netbanking = new Netbanking(amount, "7654345678");
             	paymentprocessor.processPayment(netbanking);
+            	break;
             default:
                 System.out.println("Invalid Choice");
         }

@@ -17,9 +17,9 @@ public class UPI extends Payment
 		int tnxAmount=sc.nextInt();
 		if(tnxAmount<getAmount())
 		{
-			System.out.println("UPI.makePayment(Payment done using UPI)");
-			setAmount(getAmount()-tnxAmount);
-			System.out.println("Updated balance : "+getAmount());
+			System.out.println("Payment done using UPI");
+			setAmount(getAmount()-tnxAmount);//This is the extra functionalites that I had added
+			System.out.println("Updated balance : "+getAmount());//This is the extra functionalites that I had added
 		}
 		else
 		{
