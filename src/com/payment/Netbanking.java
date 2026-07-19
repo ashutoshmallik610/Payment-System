@@ -15,8 +15,8 @@ public class Netbanking extends Payment
 		if(tnxAmount<getAmount())
 		{
 			System.out.println("Payment done using Net banking");
-			setAmount(getAmount()-tnxAmount);//This is the extra functionalites that I had added
-			System.out.println("Updated balance : "+getAmount());//This is the extra functionalites that I had added 
+			setAmount(getAmount()-tnxAmount);
+			System.out.println("Updated balance : "+getAmount());
 		}
 		else
 		{
