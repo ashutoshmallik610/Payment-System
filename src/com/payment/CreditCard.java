@@ -22,7 +22,7 @@ public class CreditCard extends Payment
 		}
 		else
 		{
-			System.out.println("Not enough money...");
+			System.out.println("Not enough money.....");
 		}
 	}
 }
