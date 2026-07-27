@@ -10,7 +10,7 @@ public class Driver {
 		
 		System.out.println("Choose Payment Type");
         System.out.println("1. UPI.");
-        System.out.println("2. CreditCard");
+        System.out.println("2. CreditCard.");
         System.out.println("3. Netbanking");
         int choice=sc.nextInt();
 		
